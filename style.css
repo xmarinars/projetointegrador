@@ -1,3 +1,4 @@
+/* Ajustando o corpo e layout */
 body {
   margin: 0;
   background-color: #d9c2f0;
@@ -44,17 +45,19 @@ h1 {
   color: #4b007d;
 }
 
+/* Ajuste no tamanho do iframe do vídeo */
 iframe {
-  width: 480px;
-  height: 270px;
-  border: none;
-  margin: 0 auto;
+  width: 480px; /* Tamanho fixo do vídeo */
+  height: 270px; /* Ajustando a altura proporcional */
+  border: none; /* Remover borda do iframe */
+  margin: 0 auto; /* Centralizando o vídeo */
 }
 
+/* Responsividade para telas pequenas (smartphones) */
 @media (max-width: 600px) {
   iframe {
-    width: 150px;
-    height: 100px;
+    width: 240px; /* Diminuindo ainda mais a largura do vídeo */
+    height: 135px; /* Ajustando a altura proporcionalmente */
   }
 }
 
