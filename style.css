@@ -70,21 +70,16 @@ h1 {
     padding: 15px;
   }
 
-  .content {
+  iframe {
     width: 100%;
     max-width: 100%;
-    box-sizing: border-box;
+    height: auto;
+    max-height: 500px;
   }
+
   html, body {
     overflow-x: hidden;
   }
 }
-
-
-
-
-
-
-
 
 
