@@ -56,8 +56,10 @@ iframe {
 /* Responsividade para telas pequenas (smartphones) */
 @media (max-width: 600px) {
   iframe {
-    width: 240px; /* Diminuindo ainda mais a largura do vídeo */
-    height: 135px; /* Ajustando a altura proporcionalmente */
+    width: 200px; /* Reduzindo bem a largura do vídeo */
+    height: 112px; /* Ajustando a altura proporcionalmente */
   }
 }
+
+
 
