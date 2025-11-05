@@ -1,4 +1,3 @@
-/* Body e Layout */
 body {
   margin: 0;
   background-color: #d9c2f0;
@@ -45,8 +44,16 @@ h1 {
   color: #4b007d;
 }
 
-/* Ajuste de Responsividade para Telas Pequenas (Smartphones) */
+iframe {
+  width: 480px;
+  height: 270px;
+  border: none;
+  margin: 0 auto;
+}
+
 @media (max-width: 600px) {
-  body {
-
-
+  iframe {
+    width: 320px;
+    height: 180px;
+  }
+}
